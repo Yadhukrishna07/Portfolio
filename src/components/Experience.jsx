@@ -26,7 +26,7 @@ const education = [
     degree: 'B.Tech in Information Technology',
     institution: 'RMK Engineering College, Chennai',
     period: '2023 – Present',
-    detail: 'CGPA: 7.52',
+    detail: 'CGPA: 7.58',
   },
   {
     degree: 'HSC (Higher Secondary Certificate)',
@@ -55,7 +55,7 @@ export default function Experience() {
           <p className="section-label">Experience & Education</p>
           <h2 className="section-title">My Journey</h2>
           <p className="section-subtitle">
-            The path I've taken and the knowledge I've gained along the way.
+            The path I&apos;ve taken and the knowledge I&apos;ve gained along the way.
           </p>
         </motion.div>
 

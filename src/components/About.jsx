@@ -32,7 +32,7 @@ function AnimatedCounter({ target, suffix = '' }) {
 
 const stats = [
   { icon: <FiCode />, value: '5', suffix: '+', label: 'Technologies', color: '#a855f7' },
-  { icon: <FiBookOpen />, value: '3', suffix: '', label: 'Hackathons', color: '#06b6d4' },
+  { icon: <FiBookOpen />, value: '2', suffix: '', label: 'Publications', color: '#06b6d4' },
   { icon: <FiAward />, value: '3', suffix: '+', label: 'Certifications', color: '#10b981' },
   { icon: <FiUsers />, value: '2', suffix: '', label: 'Internships', color: '#f59e0b' },
 ];
@@ -61,18 +61,21 @@ export default function About() {
           >
             <p>
               I'm an <strong>Information Technology student</strong> at RMK Engineering College, Chennai,
-              with experience in backend development and web applications. I'm passionate about building
-              <em>scalable software solutions</em> that make a real impact.
+              with practical experience in web development using <em>HTML, CSS, and React</em>.
+              Proficient in <strong>Java programming</strong> with strong problem-solving abilities and
+              a solid understanding of software development fundamentals.
             </p>
             <p>
-              Skilled in <strong>Java, Python, React, Node.js, and database systems</strong>, I love turning complex
-              problems into elegant solutions. Whether it's building a zero plaintext storage architecture or a
-              real-time messaging platform, I thrive on crafting products that users love.
+              Passionate about learning and contributing to impactful projects. I've built everything
+              from <strong>end-to-end encrypted productivity apps</strong> (FocusFlow) to
+              <strong>real-time chat platforms</strong> — and I've had research published at
+              national conferences and in international journals.
             </p>
             <p>
               Beyond code, I'm the <strong>Vice Chair of IEEE Consumer Technology Society</strong>
-              and an active hackathon participant. I believe in continuous
-              learning and pushing the boundaries of what's possible with technology.
+              and an active hackathon participant, including a <strong>Hackathon Winner</strong>
+              at SSN Engineering College. I believe in continuous learning and pushing
+              the boundaries of what's possible with technology.
             </p>
 
             <div className="about__highlights">

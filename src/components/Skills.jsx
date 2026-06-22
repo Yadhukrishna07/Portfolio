@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import {
   SiJavascript, SiReact, SiNodedotjs, SiMongodb,
-  SiPython, SiHtml5, SiCss, SiFigma,
+  SiHtml5, SiCss, SiFigma,
   SiCanva, SiGit
 } from 'react-icons/si';
 import { FaJava, FaDatabase } from 'react-icons/fa';
@@ -13,7 +13,6 @@ const skillCategories = [
     title: 'Programming & Markup',
     skills: [
       { name: 'Java', icon: <FaJava />, color: '#f89820', level: 85 },
-      { name: 'Python', icon: <SiPython />, color: '#3776ab', level: 75 },
       { name: 'JavaScript', icon: <SiJavascript />, color: '#f7df1e', level: 85 },
       { name: 'HTML5', icon: <SiHtml5 />, color: '#e34f26', level: 90 },
       { name: 'CSS3', icon: <SiCss />, color: '#1572b6', level: 85 },
@@ -56,7 +55,6 @@ const marqueeSkills = [
   { name: 'React', icon: <SiReact />, color: '#61dafb' },
   { name: 'Node.js', icon: <SiNodedotjs />, color: '#339933' },
   { name: 'MongoDB', icon: <SiMongodb />, color: '#47a248' },
-  { name: 'Python', icon: <SiPython />, color: '#3776ab' },
   { name: 'JavaScript', icon: <SiJavascript />, color: '#f7df1e' },
   { name: 'Git', icon: <SiGit />, color: '#f05032' },
   { name: 'Figma', icon: <SiFigma />, color: '#a259ff' },

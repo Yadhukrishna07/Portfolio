@@ -90,9 +90,9 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
           >
             IT Student & Developer crafting{' '}
-            <span className="hero__highlight">scalable</span>,{' '}
+            <span className="hero__highlight">responsive</span>,{' '}
             <span className="hero__highlight">user-focused</span> web applications
-            with modern technologies.
+            with Java & modern web technologies.
           </motion.p>
 
           <motion.div
@@ -105,7 +105,7 @@ export default function Hero() {
               View My Work
               <FiArrowDown />
             </a>
-            <a href="/Yadhu_Krishna_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline" aria-label="Download Resume">
+            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline" aria-label="Download Resume">
               <FiDownload /> Download Resume
             </a>
             <a href="#contact" className="btn btn-outline">

@@ -8,8 +8,8 @@ const projects = [
     id: 1,
     title: 'FocusFlow',
     description:
-      'Implemented end-to-end encrypted data pipelines with client-side encryption. Integrated Gemini API for intelligent, real-time content transformation and designed an anonymized analytics dashboard.',
-    tags: ['Next.js', 'Convex', 'Gemini API'],
+      'Built using Next.js, Convex, Gemini API and Web Crypto API for end-to-end encrypted, client-side data storage. Integrated Gemini API for intelligent content personalization based on user activity.',
+    tags: ['Next.js', 'Convex', 'Gemini API', 'Web Crypto API'],
     icons: [<SiReact key="r" />, <SiMongodb key="m" />, <SiNodedotjs key="n" />],
     year: '2025',
     gradient: 'linear-gradient(135deg, #06d6a0, #00b4d8)',
@@ -20,12 +20,24 @@ const projects = [
     id: 2,
     title: 'Real-Time Chat Application',
     description:
-      'Built a real-time messaging platform enabling instant communication with secure authentication and live message delivery using Socket.IO and JWT-based authentication.',
-    tags: ['React', 'Node.js', 'Socket.IO'],
+      'Developed a full-stack real-time chat application with live messaging and JWT-based authentication. Built REST APIs for user management and chat history, backed by MongoDB for persistent storage.',
+    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
     icons: [<SiReact key="r" />, <SiMongodb key="m" />, <SiNodedotjs key="n" />],
     year: '2024',
     gradient: 'linear-gradient(135deg, #7c3aed, #ec4899)',
     image: '/project-student.png',
+    github: 'https://github.com/Yadhukrishna07',
+  },
+  {
+    id: 3,
+    title: 'Student Management System',
+    description:
+      'Developed a full-stack Student Management System to manage student records, course enrollments, and enrollment dates, with real-time display of added data on the UI.',
+    tags: ['HTML', 'CSS', 'Node.js', 'MongoDB'],
+    icons: [<SiMongodb key="m" />, <SiNodedotjs key="n" />, <SiReact key="r" />],
+    year: '2024',
+    gradient: 'linear-gradient(135deg, #f59e0b, #ef4444)',
+    image: '/project-career.png',
     github: 'https://github.com/Yadhukrishna07',
   },
 ];

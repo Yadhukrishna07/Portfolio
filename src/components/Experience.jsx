@@ -4,19 +4,19 @@ import './Experience.css';
 
 const experiences = [
   {
-    role: 'Full Stack Development Trainee',
-    company: 'National Small Industries Corporation (NSIC)',
-    period: 'June 2025 – July 2025',
+    role: 'Full Stack Intern',
+    company: 'National Small Industries Corporation (NSIC), Chennai',
+    period: 'Jun 2025',
     description:
-      'Learned full stack web development concepts and deployment processes. Worked with modern web technologies and backend integration.',
+      'Worked on frontend and backend modules, gaining practical exposure to full-stack development with modern web technologies.',
     tags: ['Full Stack', 'Web Development', 'Backend Integration'],
   },
   {
-    role: 'Web Development Intern',
-    company: 'Bharat Intern',
-    period: 'November 2023 – December 2023',
+    role: 'Web Developer Intern',
+    company: 'Prodigy Infotech',
+    period: 'Jun 2024 – Jul 2024',
     description:
-      'Developed responsive websites using HTML, CSS, and JavaScript. Improved user interface structure and frontend development practices.',
+      'Developed responsive web pages and enhanced UI components, improving user experience and frontend development practices.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Frontend Development'],
   },
 ];
@@ -25,14 +25,20 @@ const education = [
   {
     degree: 'B.Tech in Information Technology',
     institution: 'RMK Engineering College, Chennai',
-    period: 'Expected 2027',
+    period: '2023 – Present',
     detail: 'CGPA: 7.52',
   },
   {
     degree: 'HSC (Higher Secondary Certificate)',
-    institution: "St. Mary's Matric Higher Secondary School",
-    period: '2023',
+    institution: "St. Mary's Matriculation Higher Secondary School, Chennai",
+    period: '2022 – 2023',
     detail: 'Percentage: 75.17%',
+  },
+  {
+    degree: 'SSLC (Secondary School Leaving Certificate)',
+    institution: "St. Mary's Matriculation Higher Secondary School, Chennai",
+    period: '2020 – 2021',
+    detail: 'Percentage: 100%',
   },
 ];
 

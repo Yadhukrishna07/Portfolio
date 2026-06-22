@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiAward, FiBookOpen, FiStar } from 'react-icons/fi';
+import { FiAward, FiBookOpen, FiStar, FiFileText, FiGlobe } from 'react-icons/fi';
 import './Extras.css';
 
 const leadership = [
@@ -29,6 +29,24 @@ const achievements = [
   'Participant, 24-Hour Hackathon at SVCE',
 ];
 
+const publications = [
+  {
+    title: 'Interactive Recipe Recommendation Using AI and Machine Learning',
+    venue: 'ISTE National Conference (PIMERSAEFT 25)',
+  },
+  {
+    title: 'An Automated Tool for Parsing of Social Media Feeds of the Suspect for the Ease of Investigation',
+    venue: 'Atlantis Press, 2023',
+  },
+];
+
+const languages = [
+  { lang: 'English', level: 'Fluent' },
+  { lang: 'Tamil', level: 'Fluent' },
+  { lang: 'Malayalam', level: 'Fluent' },
+  { lang: 'Hindi', level: 'Basic' },
+];
+
 export default function Extras() {
   return (
     <section id="extras" className="extras section">
@@ -40,7 +58,7 @@ export default function Extras() {
           transition={{ duration: 0.6 }}
         >
           <p className="section-label">More About Me</p>
-          <h2 className="section-title">Leadership, Certs & Achievements</h2>
+          <h2 className="section-title">Leadership, Certs &amp; Achievements</h2>
         </motion.div>
 
         <div className="extras__grid">
@@ -53,7 +71,7 @@ export default function Extras() {
             transition={{ duration: 0.5 }}
           >
             <h3 className="extras__block-title">
-              <FiBookOpen /> Leadership & Activities
+              <FiBookOpen /> Leadership &amp; Activities
             </h3>
             <ul className="extras__list">
               {leadership.map((item) => (
@@ -100,6 +118,48 @@ export default function Extras() {
               {achievements.map((ach) => (
                 <li key={ach} className="extras__list-item extras__list-item--simple">
                   {ach}
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+
+          {/* Publications */}
+          <motion.div
+            className="extras__block card"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+          >
+            <h3 className="extras__block-title">
+              <FiFileText /> Publications
+            </h3>
+            <ul className="extras__list">
+              {publications.map((pub) => (
+                <li key={pub.title} className="extras__list-item">
+                  <strong>{pub.title}</strong>
+                  <span className="extras__venue">{pub.venue}</span>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+
+          {/* Languages */}
+          <motion.div
+            className="extras__block card"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <h3 className="extras__block-title">
+              <FiGlobe /> Languages
+            </h3>
+            <ul className="extras__list">
+              {languages.map(({ lang, level }) => (
+                <li key={lang} className="extras__list-item">
+                  <strong>{lang}</strong>
+                  <span className="extras__venue">{level}</span>
                 </li>
               ))}
             </ul>
